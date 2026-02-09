@@ -12,7 +12,7 @@ This repository contains modular skills that can be loaded by AI agents to perfo
 Skills/
 ├── README.md
 ├── LICENSE
-├── agents.md
+├── AGENT.md
 └── [skill-name]/
     ├── SKILL.md          # Main instruction file (required)
     ├── scripts/          # Helper scripts and utilities
@@ -22,13 +22,23 @@ Skills/
 
 ## Available Skills
 
-| Skill | Description |
-|-------|-------------|
-| `deep-audit` | Security and robustness scanner for codebases |
+### `deep-audit`
 
-## Usage
+**Description:**
+A universal, language-agnostic security and robustness scanner designed to detect tech stacks, formulate custom audit plans, and recursively analyze code for bugs and vulnerabilities.
 
-Skills are automatically discovered and loaded by compatible AI agents. To use a skill, simply reference it in your agent configuration or invoke it during a conversation.
+**Features:**
+-   **Tech Stack Detection**: Automatically identifies languages and frameworks used in the codebase.
+-   **Custom Audit Plan**: Generates a tailored audit strategy based on the detected stack.
+-   **Recursive Analysis**: Scans files recursively to identify potential security issues and bugs.
+-   **Report Generation**: Produces a comprehensive report of findings.
+
+**Usage:**
+This skill is used by AI agents to perform security audits on codebases. The agent loads the skill instructions from `deep-audit/SKILL.md` and executes the defined workflow.
+
+---
+
+*(More skills will be added here)*
 
 ## Licensing
 

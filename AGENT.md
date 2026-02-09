@@ -11,7 +11,7 @@ This repository contains a collection of **Skills**—modular capabilities that 
 Each skill directory follows a consistent structure:
 
 -   `SKILL.md`: The primary instruction file. **Always read this first** to understand the skill's purpose, usage, and available commands. It contains YAML frontmatter with metadata and markdown content with detailed instructions.
--   `scripts/`: Contains executable scripts or utilities helper functions.
+-   `scripts/`: Contains executable scripts or helper functions.
 -   `examples/`: Provides reference implementations.
 -   `resources/`: Stores additional assets or templates.
 
