@@ -14,12 +14,12 @@ npx skills add https://github.com/shantoislamdev/Skills --skill <skill-name>
 
 # Skills:
 
-### deep-audit
+### ideator
 
-Universal security and robustness scanner with tech stack detection and custom audit plans.
+Generate distinctive, highly original, and unconventional ideas, concepts, or solutions. Use this skill when the user asks for brainstorming, business concepts, automation workflows, creative writing, or problem-solving. Generates provocative, paradigm-shifting, and deeply specific concepts that strictly avoid generic, surface-level "AI slop" listicles.
 
 **Installation:**
 
 ```bash
-npx skills add https://github.com/shantoislamdev/Skills --skill deep-audit
+npx skills add https://github.com/shantoislamdev/Skills --skill ideator
 ```
